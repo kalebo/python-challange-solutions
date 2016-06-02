@@ -1220,6 +1220,6 @@ $#_}*!(+([_&%{^&[([%]}*^{{([@+@]@*&@_!]_+([(#&!]]#$$#]@#{_]][_{@]{*))$({%}_![@$]
 #@}&$[[%]_&$+)$!%{(}$^$}*"""
 
 from collections import Counter
-counter = Counter(data)
+print(Counter(data))
 
-print str([i for i in data.lower() if i <= 'z' and i >= 'a'])
+print(''.join([i for i in data.lower() if i <= 'z' and i >= 'a']))

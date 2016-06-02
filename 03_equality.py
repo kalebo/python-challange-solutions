@@ -1250,13 +1250,7 @@ KfErkDaWMFZZeuqDmXKJEGHyToPUhPphfVhgUZgbIuRAtWnroImpJKqqmEZqeNQCKzhjIkKQHURWLXFw
 PBuijeoTSpsVLaOGuLVjMZXkBvVXwUuHfBihziiavGSYofPNeKsTXruMUumRRPQJzvSzJkKbtSipiqBd
 """
 
-
-from collections import Counter
-counter = Counter(data)
-print counter
-
 import re
 regex = re.compile("[a-z][A-Z]{3}([a-z])[A-Z]{3}[a-z]")
-w = regex.findall("AAAbAAACCCzCCCaCCCeRRR")
 m = regex.findall(data)
-print ' '.join(m)
+print(''.join(m))
